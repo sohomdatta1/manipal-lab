@@ -1,15 +1,19 @@
 # Manipal-lab
 
-A repository for archiving/solving questions related to college labs particularly since I have a habit of deleting directories randomly.
+This repository contains questions and their respective answers for CSE 4th year labs in Manipal.
 
 ## Contents
 
 ### Embedded Systems Lab
 
-- [Lab 1](./es_lab/lab_1/README.md)
+- [Lab 1](./es_lab/lab_1/README.md) - Introduction to keil µvision-4 and programs on data transfer instructions
 
 ### Algorithms Lab
 
-- [Lab 1](./daa_lab/lab_1/README.md)
+- [Lab 1](./daa_lab/lab_1/README.md) - Review of fundamental data structures
 
-## Database Lab
+### Database Lab
+
+## Contributing/Corrections
+
+Feel free to open a issue or a pull request if you find something that doesn't look right.
