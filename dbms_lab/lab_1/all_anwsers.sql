@@ -1,5 +1,3 @@
--- Question 9: Drop the table employee1.
-DROP TABLE EMPLOYEE1;
 -- Question 1: Create a table employee with ( emp_no, emp_name, emp_address)
 CREATE TABLE EMPLOYEE(emp_no number(10) NOT NULL, emp_name varchar2(20) NOT NULL, emp_address varchar2(20));
 -- Question 2: Insert five employees information.
@@ -28,3 +26,5 @@ DESCRIBE EMPLOYEE;
 DELETE FROM EMPLOYEE WHERE emp_address='MANGALORE';
 -- Question 9: Rename employee as employee1.
 RENAME EMPLOYEE TO EMPLOYEE1;
+-- Question 10: Drop the table employee1.
+DROP TABLE EMPLOYEE1;
