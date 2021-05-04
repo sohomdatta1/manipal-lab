@@ -1,5 +1,5 @@
-AREA RESET, DATA, READONLY
-EXPORT  __Vectors
+	AREA RESET, DATA, READONLY
+	EXPORT  __Vectors
 __Vectors
   DCD  0x10001000     ; stack pointer value when stack is empty
   DCD  Reset_Handler  ; reset vector
@@ -12,9 +12,9 @@ Reset_Handler
   LDR R1, =DST; Load the address of DST onto R1
   LDR R3, [R0]; Load data pointed by R0 into R3
   STR R3,[R1];Store data from R3 into the address pointed by R1
-STOP:
+STOP
   B STOP          ; Be there
-SRC DCD 8          ;SRC  location in code memory
   AREA mydata, DATA, READWRITE
+SRC DCD 8          ;SRC  location in code memory
 DST DCD 0;DST location indata memory
-END
+	END
