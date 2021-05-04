@@ -14,6 +14,8 @@ This repository contains questions and their respective answers for CSE 4th year
 
 ### Database Lab
 
+- [Lab 1](./dbms_lab/lab_1/all_anwsers.sql)
+
 ## Contributing/Corrections
 
 Feel free to open a issue or a pull request if you find something that doesn't look right.
