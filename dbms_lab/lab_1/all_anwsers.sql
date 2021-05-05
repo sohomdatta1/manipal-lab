@@ -9,7 +9,7 @@ INSERT INTO EMPLOYEE VALUES (5, 'THORA DIXON', 'MANGALORE');
 -- Question 3: Display names of all employees.
 SELECT emp_name FROM EMPLOYEE;
 -- Question 4: Display all the employees from ‘MANIPAL’.
-SELECT * FROM EMPLOYEE WHERE emp_address LIKE %MANIPAL%;
+SELECT * FROM EMPLOYEE WHERE emp_address LIKE '%MANIPAL%';
 -- Question 5: Add a column named salary to employee table.
 ALTER TABLE EMPLOYEE ADD salary number(5);
 -- Question 6: Assign the salary for all employees.
