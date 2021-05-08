@@ -60,9 +60,9 @@ ALTER TABLE EMPLOYEE MODIFY Salary DEFAULT 10000;
 -- Q9)
 SELECT name, dept_name FROM student;
 -- Q10)
-SELECT * FROM instructor;
+SELECT * FROM instructor WHERE dept_name ='Comp. Sci';
 -- Q11)
-SELECT title FROM Course WHERE credits = 3;
+SELECT title FROM Course WHERE credits = 3 AND dept_name='Comp. Sci.';
 -- Q12)
 SELECT course_id, title FROM Takes NATURAL JOIN Course WHERE ID = 12345;
 -- Q13)
